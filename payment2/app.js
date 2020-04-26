@@ -113,7 +113,7 @@ attachment = fs.readFileSync(pathToAttachment).toString("base64");
 };
 sgMail.send(msg);
 
-return  res.redirect('http://localhost:3000');
+return  res.redirect('http://13.59.250.223:3000');
 
 
 

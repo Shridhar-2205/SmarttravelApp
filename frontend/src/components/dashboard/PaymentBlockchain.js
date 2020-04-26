@@ -15,7 +15,7 @@ class PaymentBlockchain extends Component {
     }
     
     componentDidMount(){
-        axios.get("http://localhost:3001/paymentBlockchain")
+        axios.get("http://13.59.250.223:3001/paymentBlockchain")
             .then( (response) => {
                     if(response.status === 200){
                         console.log("success!")
